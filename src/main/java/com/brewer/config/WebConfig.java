@@ -18,7 +18,6 @@ import org.thymeleaf.templateresolver.ITemplateResolver;
 
 import com.brewer.controller.CervejasController;
 
-
 @Configuration
 @ComponentScan(basePackageClasses = { CervejasController.class })
 @EnableWebMvc
