@@ -13,6 +13,7 @@ import javax.validation.Valid;
 @Controller
 public class CervejasController {
 
+
     @RequestMapping("/cervejas/novo")
     public String create(Cerveja cerveja) {
         return "cerveja/create";
