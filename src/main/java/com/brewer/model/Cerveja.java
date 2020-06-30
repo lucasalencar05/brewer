@@ -8,6 +8,7 @@ import java.math.BigDecimal;
 import java.util.Objects;
 
 
+
 @Entity
 @Table(name = "cerveja")
 public class Cerveja {
