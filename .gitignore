@@ -1,4 +1,5 @@
 .idea
 target
-src/main/resources/db/config/*
+
+src/main/resources/db/config/
 .DS_Store
