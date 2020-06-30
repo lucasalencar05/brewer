@@ -60,7 +60,7 @@
                 <version>${flyway-maven-plugin.version}</version>
                 <configuration>
                     <driver>com.mysql.cj.jdbc.Driver</driver>
-                    <configFile>src/main/resources/db/config/flyway.properties</configFile>
+                    <configFile>src/main/resources/db/config/flyway.properties.store</configFile>
                 </configuration>
             </plugin>
         </plugins>
