@@ -1,7 +1,7 @@
 CREATE TABLE estilo (
     codigo BIGINT(20) PRIMARY KEY AUTO_INCREMENT,
     nome VARCHAR(50) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 CREATE TABLE cerveja (
     codigo BIGINT(20) PRIMARY KEY AUTO_INCREMENT,
@@ -15,7 +15,7 @@ CREATE TABLE cerveja (
     origem VARCHAR(50) NOT NULL,
     codigo_estilo BIGINT(20) NOT NULL,
     FOREIGN KEY (codigo_estilo) REFERENCES estilo(codigo)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 INSERT INTO estilo VALUES (0, 'Amber Lager');
 INSERT INTO estilo VALUES (0, 'Dark Lager');

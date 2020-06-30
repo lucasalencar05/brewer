@@ -59,7 +59,8 @@
                 <artifactId>flyway-maven-plugin</artifactId>
                 <version>${flyway-maven-plugin.version}</version>
                 <configuration>
-                    <driver>com.mysql.jdbc.Driver</driver>
+                    <driver>com.mysql.cj.jdbc.Driver</driver>
+                    <configFile>src/main/resources/db/migration/config/flyway.properties</configFile>
                 </configuration>
             </plugin>
         </plugins>
