@@ -2,4 +2,6 @@
 target
 
 src/main/resources/db/config/*
+src/main/resources/rebel.xml
+src/main/webapp/META-INF/context.xml
 .DS_Store
