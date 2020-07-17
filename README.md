@@ -1,2 +1,2 @@
-# brewer
-![Alt text](src/main/resources/static/images/diagrama-classe-brewer.png?raw=true "Diagrama de classe")
+# Brewer Spring Boot 2
+![Alt text](src/main/resources/static/images/dashboard.png?raw=true "Dashboard")

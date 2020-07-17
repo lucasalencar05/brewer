@@ -8,10 +8,11 @@ public enum TipoPessoa {
 	FISICA("Física", "CPF", "000.000.000-00", CpfGroup.class) {
 		@Override
 		public String formatar(String cpfOuCnpj) {
+
 			return cpfOuCnpj.replaceAll("(\\d{3})(\\d{3})(\\d{3})", "$1.$2.$3-");
 		}
-	}, 
-	
+	},
+
 	JURIDICA("Jurídica", "CNPJ", "00.000.000/0000-00", CnpjGroup.class) {
 		@Override
 		public String formatar(String cpfOuCnpj) {
